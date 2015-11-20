@@ -850,7 +850,7 @@ all.cm <- left_join(all.cm, lgen.cm, by="IID")
 library(seqinr)
 library(Gviz)
 library(TxDb.Hsapiens.UCSC.hg19.knownGene)
-library(BSgenome.Hsapiens.UCSC.hg19)
+#library(BSgenome.Hsapiens.UCSC.hg19)
 library(grid)
 
 # gene + SNP information
